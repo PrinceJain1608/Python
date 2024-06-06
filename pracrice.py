@@ -2172,7 +2172,7 @@ def main():
   print("median value:",result)
 if(__name__=="__main__"):
     main()
-    '''
+    
 import random
 def passwd():
   x=random.randint(7,10)
@@ -2182,3 +2182,7 @@ def passwd():
   return st
 passwd=passwd()
 print("password:",passwd)
+'''
+l=[1,2,3,4,5,6]
+even=list(filter(lambda x:x%2==0,l))
+print(even)
