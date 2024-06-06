@@ -2186,7 +2186,12 @@ print("password:",passwd)
 l=[1,2,3,4,5,6]
 even=list(filter(lambda x:x%2==0,l))
 print(even)
-'''
+
 l=[1,2,3,4,5,6]
 s=lambda x:sum(y for y in x)
 print(s(l))
+'''
+a=int(input("enter number:"))
+b=int(input("enter number:"))
+mini=lambda a,b: a if a<b else b
+print("smaller number:",mini(a,b))
