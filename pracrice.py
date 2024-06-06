@@ -2212,7 +2212,7 @@ class prince:
     print("this is destructor")
 p=prince()
 del p
-'''
+
 class prince:
   def __init__(self,age=0):
     self.__age=age
@@ -2224,3 +2224,22 @@ p=prince()
 p.setter(19)
 print(p.getter())
 # print(p.__age)
+'''
+def binarysearch(arr,start,end,key):
+  if(start<=end):
+    mid=(start+end)//2
+    if(arr[mid]==key):
+        return mid
+    elif(arr[mid]<key):
+        return binarysearch(arr,mid+1,end,key)
+    else:
+        return binarysearch(arr,start,mid-1,key)
+  else:
+     return -1
+arr=[22,44,2,4,1,4555,3]
+key=int(input("enter key:"))
+x=binarysearch(arr,0,len(arr)-1,key)
+if(x!=-1):
+   print("key is present")
+else:
+   print("key is absent")
