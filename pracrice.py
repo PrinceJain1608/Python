@@ -2195,7 +2195,7 @@ a=int(input("enter number:"))
 b=int(input("enter number:"))
 mini=lambda a,b: a if a<b else b
 print("smaller number:",mini(a,b))
-'''
+
 def fun():
   n=input("enter number:")
   if(n==""):
@@ -2204,3 +2204,11 @@ def fun():
     return float(n)+fun()
 x=fun()
 print(x)
+'''
+class prince:
+  def __init__(self):
+    print("this is constructor")
+  def __del__(self):
+    print("this is destructor")
+p=prince()
+del p
