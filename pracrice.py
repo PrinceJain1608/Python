@@ -2204,7 +2204,7 @@ def fun():
     return float(n)+fun()
 x=fun()
 print(x)
-'''
+
 class prince:
   def __init__(self):
     print("this is constructor")
@@ -2212,3 +2212,15 @@ class prince:
     print("this is destructor")
 p=prince()
 del p
+'''
+class prince:
+  def __init__(self,age=0):
+    self.__age=age
+  def getter(self):
+    return self.__age
+  def setter(self,a):
+    self.__age=a
+p=prince()
+p.setter(19)
+print(p.getter())
+# print(p.__age)
