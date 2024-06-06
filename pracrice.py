@@ -2182,7 +2182,11 @@ def passwd():
   return st
 passwd=passwd()
 print("password:",passwd)
-'''
+
 l=[1,2,3,4,5,6]
 even=list(filter(lambda x:x%2==0,l))
 print(even)
+'''
+l=[1,2,3,4,5,6]
+s=lambda x:sum(y for y in x)
+print(s(l))
