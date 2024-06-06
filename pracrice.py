@@ -2159,7 +2159,7 @@ def swap(a,b):
 a=int(input("enter number:"))
 b=int(input("enter number"))
 swap(a,b)
-'''
+
 def median(a,b,c):
   l=[a,b,c]
   l.sort()
@@ -2172,3 +2172,13 @@ def main():
   print("median value:",result)
 if(__name__=="__main__"):
     main()
+    '''
+import random
+def passwd():
+  x=random.randint(7,10)
+  st=""
+  for i in range(x):
+    st+=chr(random.randint(33,126))
+  return st
+passwd=passwd()
+print("password:",passwd)
