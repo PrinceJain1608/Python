@@ -1,0 +1,2 @@
+import pracrice
+pracrice.hello();

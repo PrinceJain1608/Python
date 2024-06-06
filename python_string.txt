@@ -1,0 +1,73 @@
+STRINGS FUNCTIONS
+
+len()-lengtH
+upper()-all capital letters
+lower()-all lower letters
+rstrip("__")-remove from right
+lstrip("__")-remove from left
+strip("__")-remove from both sides
+replace("chotu","prince")-replace the word
+split()-splits the elements
+capitalize()-make 1st letter capital
+center(__)-make text in center
+count("__")-counts the letter or a word
+endswith("__")-return true or false if ends with __ endswith("__",4,10)-return ture or false if sring ends btw 4 ans 10
+startswith("__")-same as above
+find("__")-return 1st occurence index of argument and returns -1 if string is not present
+index("__")- same as find() but do not return -1
+isalnum()-return true and false if alpha or numeric are present
+isalpha()-return true if only alphabet is present
+isalnum()-return true of onlu numbers are present
+islower()-return true if all letters are in small
+isupper()-return true if all letters are in capital
+isprintable()-return true if all the letters are printable not like \n
+isspace()-returns true if spaces are present in string
+istitle()-return true if all the words starts from capital letter
+swapcase()-converts upper into lower and vice versa
+title()-convert 1st letter of each word as capital
+
+LIST FUNCTIONS
+
+append()-add element in list
+sort()-sort elements
+lst.sort(reverse=True)-sort in desending order
+reverse()-reverse the list
+index(__)-returns the element at particular index
+count(__)-count the number of times element repeated
+copy()-copy the original list
+insert(_,_)-takes index and the value to be inserted
+extend(__)-add the whole list into another list
+
+TUPLE FUNCTIONS
+
+count(__)
+index(__)
+index(element,start,end)
+
+SET FUNCTIONS
+
+union()
+intersection()
+update()
+intersection_update()
+symmetric_difference()
+symmetric_difference_update()
+difference()
+difference_update()
+isdisjoint()
+issuperset()
+issubset()
+add()
+remove()/discard()
+pop()
+del
+clear()
+
+DITIONARY FUNCTIONS
+
+update()
+clear()
+pop(_key_)
+popitem()-remove last element
+del
+
