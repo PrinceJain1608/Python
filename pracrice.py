@@ -2327,7 +2327,7 @@ if(x):
   print("condition satisfied")
 else:
   print("condition not satisfied")
-  '''
+  
 import re
 email=input("enter email:")
 x=re.findall("[a-z0-9_\.\-]+[@][a-z]{5,6}[\.][a-z\.]{2,3}",email)
@@ -2335,3 +2335,16 @@ if(x):
   print("valid")
 else:
   print("invalid")
+  
+import re
+st=input("enter string:")
+x=re.findall("[a][b]*",st)
+if(x):
+  print("valid")
+else:
+  print("invalid")
+  '''
+import re
+st=input("enter string:")
+x=re.findall("[A-Z][a-z]+",st)
+print(x)
