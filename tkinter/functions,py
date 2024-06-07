@@ -1,0 +1,6 @@
+import tkinter
+window=tkinter.Tk()
+def hii():
+  tkinter.Label(window,text="prince jain").pack()
+button=tkinter.Button(window,text="enter",command=hii).pack()
+window.mainloop()
