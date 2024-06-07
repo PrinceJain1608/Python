@@ -2319,7 +2319,7 @@ if(x):
   print("mobile number is valid")
 else:
   print("mobile number is invalid")
-  '''
+  
 import re
 st="A8prince"
 x=re.findall("[A-Z][0-9][a-z]+",st)
@@ -2327,3 +2327,11 @@ if(x):
   print("condition satisfied")
 else:
   print("condition not satisfied")
+  '''
+import re
+email=input("enter email:")
+x=re.findall("[a-z0-9]+[@][a-z]{5}[\.][a-z]{2,3}",email)
+if(x):
+  print("valid")
+else:
+  print("invalid")
