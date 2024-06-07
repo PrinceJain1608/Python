@@ -2243,12 +2243,21 @@ if(x!=-1):
    print("key is present")
 else:
    print("key is absent")
-   '''
+   
 import turtle
 turtle.showturtle()
 for i in range(4):
   turtle.forward(100)
   turtle.left(90)
   turtle.forward(100)
+turtle.hideturtle()
+turtle.done()
+'''
+import turtle
+turtle.showturtle()
+for i in range(6):
+  turtle.forward(50)
+  turtle.left(60)
+  turtle.forward(50)
 turtle.hideturtle()
 turtle.done()
