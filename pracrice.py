@@ -2362,4 +2362,64 @@ s=lambda a:sum(b for b in range(len(l)))
 print(s(l))
 sum1=reduce((lambda x,y:x+y),l)
 print(sum1)
+
+l=[1,2,3,4,5]
+dic={items:items for items in l}
+print(dic)
+
+s="prince"
+l=list(s)
+print(l)
+
+s="helloo"
+l=[1,2,3,4,5]
+t=(6,7,8,9,0)
+st=dict(zip(s,t))
+print(st)
+
+def fib(n):
+  if(n==0):
+    return 0
+  if(n==1):
+    return 1
+  else:
+    return fib(n-1)+fib(n-2)
+n=int(input("enter number:"))
+print(fib(n))
+
+import re
+s="prince123"
+x=re.sub("[A-Za-z_]","",s)
+print(x)
+
+import re
+s="all ele si"
+x=re.findall("[a-e]\w+",s)
+y=re.findall("all|ele|hh",s)
+print(x)
+print(y)
+
+n=int(input("enter number:"))
+for n in range(1,n):
+  count=0
+  i=1
+  while(i<=n):
+    if(n%i==0):
+      count+=1
+    i+=1
+  if(count==2):
+    print(n)
+    
+from functools import reduce
+l=[1,2,3,5]
+s=reduce(lambda x,y:x+y,l)
+print(s)
 '''
+class operator:
+  def __init__(self,x):
+    self.x=x
+  def __add__(self,b):
+    print(self.x + b)
+o=operator(10)
+# o.__add__(30)
+o+20
