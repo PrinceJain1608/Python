@@ -2311,7 +2311,7 @@ if(x):
   print("string is matched")
 else:
   print("string is not matched")
-  '''
+  
 import re
 mobile=input("enter mobile number:")
 x=re.findall("[6-9][0-9]{9}",mobile)
@@ -2319,3 +2319,11 @@ if(x):
   print("mobile number is valid")
 else:
   print("mobile number is invalid")
+  '''
+import re
+st="A8prince"
+x=re.findall("[A-Z][0-9][a-z]+",st)
+if(x):
+  print("condition satisfied")
+else:
+  print("condition not satisfied")
