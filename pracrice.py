@@ -2261,7 +2261,7 @@ for i in range(6):
   turtle.forward(50)
 turtle.hideturtle()
 turtle.done()
-'''
+
 import turtle
 turtle.showturtle()
 turtle.speed(10)
@@ -2274,4 +2274,14 @@ turtle.goto(-50,150)
 turtle.pendown()
 turtle.write("JECRC University",font=20)
 turtle.hideturtle()
+turtle.done()
+'''
+import turtle
+turtle.showturtle()
+turtle.right(90)
+for i in range(1,11):
+  turtle.pendown()
+  turtle.write(i)
+  turtle.penup()
+  turtle.forward(30)
 turtle.done()
