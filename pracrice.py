@@ -2355,10 +2355,11 @@ a=list(filter(lambda b:b%2==0,l))
 x=list(map(lambda y:y*2,l))
 print(x)
 print(a)
-'''
+
 from functools import reduce
 l=[1,2,3,4,5,6]
 s=lambda a:sum(b for b in range(len(l)))
 print(s(l))
 sum1=reduce((lambda x,y:x+y),l)
 print(sum1)
+'''
