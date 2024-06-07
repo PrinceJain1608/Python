@@ -2285,7 +2285,7 @@ for i in range(1,11):
   turtle.penup()
   turtle.forward(30)
 turtle.done()
-'''
+
 import turtle
 turtle.showturtle()
 start_x=-200
@@ -2303,3 +2303,11 @@ for i in range(1,6):
   y-=30
 turtle.hideturtle()
 turtle.done()
+'''
+import re
+s="my_Name_Is_PRINce_JAIN_123"
+x=re.findall("[A-Za-z0-9_]+",s)
+if(x):
+  print("string is matched")
+else:
+  print("string is not matched")
