@@ -2303,7 +2303,7 @@ for i in range(1,6):
   y-=30
 turtle.hideturtle()
 turtle.done()
-'''
+
 import re
 s="my_Name_Is_PRINce_JAIN_123"
 x=re.findall("[A-Za-z0-9_]+",s)
@@ -2311,3 +2311,11 @@ if(x):
   print("string is matched")
 else:
   print("string is not matched")
+  '''
+import re
+mobile=input("enter mobile number:")
+x=re.findall("[6-9][0-9]{9}",mobile)
+if(x):
+  print("mobile number is valid")
+else:
+  print("mobile number is invalid")
