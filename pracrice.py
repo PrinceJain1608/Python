@@ -2224,7 +2224,7 @@ p=prince()
 p.setter(19)
 print(p.getter())
 # print(p.__age)
-'''
+
 def binarysearch(arr,start,end,key):
   if(start<=end):
     mid=(start+end)//2
@@ -2243,3 +2243,12 @@ if(x!=-1):
    print("key is present")
 else:
    print("key is absent")
+   '''
+import turtle
+turtle.showturtle()
+for i in range(4):
+  turtle.forward(100)
+  turtle.left(90)
+  turtle.forward(100)
+turtle.hideturtle()
+turtle.done()
