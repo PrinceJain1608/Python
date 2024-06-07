@@ -2330,7 +2330,7 @@ else:
   '''
 import re
 email=input("enter email:")
-x=re.findall("[a-z0-9]+[@][a-z]{5}[\.][a-z]{2,3}",email)
+x=re.findall("[a-z0-9_\.\-]+[@][a-z]{5,6}[\.][a-z\.]{2,3}",email)
 if(x):
   print("valid")
 else:
