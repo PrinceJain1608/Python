@@ -2275,7 +2275,7 @@ turtle.pendown()
 turtle.write("JECRC University",font=20)
 turtle.hideturtle()
 turtle.done()
-'''
+
 import turtle
 turtle.showturtle()
 turtle.right(90)
@@ -2284,4 +2284,22 @@ for i in range(1,11):
   turtle.write(i)
   turtle.penup()
   turtle.forward(30)
+turtle.done()
+'''
+import turtle
+turtle.showturtle()
+start_x=-200
+start_y=200
+x=start_x
+y=start_y
+for i in range(1,6):
+  for j in range(i):
+    turtle.penup()
+    turtle.goto(x,y)
+    turtle.pendown()
+    turtle.write("*")
+    x+=20
+  x=start_x
+  y-=30
+turtle.hideturtle()
 turtle.done()
